@@ -32,7 +32,7 @@
             "name": "ISA RO-Crate Profile description",
             "encodingFormat": "text/markdown",
             "about": {
-                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile"
+                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/"
             }
         },
         {
@@ -96,7 +96,7 @@
             "name": "ISA RO-Crate ISA Tab/Json mapping guidance",
             "encodingFormat": "text/markdown",
             "about": {
-                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile"
+                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/"
             }
         },
         {
@@ -105,7 +105,7 @@
             "name": "ISA RO-Crate Annotation Modelling guidance",
             "encodingFormat": "text/html",
             "about": {
-                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile"
+                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/"
             }
         },
         {
@@ -114,7 +114,7 @@
             "name": "ISA RO-Crate Example",
             "encodingFormat": "application/json",
             "about": {
-                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile"
+                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/"
             }
         },
         {
@@ -153,7 +153,7 @@
             }
         },
         {
-            "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile",
+            "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/",
             "@type": [
                 "Dataset",
                 "Profile"
@@ -163,6 +163,8 @@
             },
             "name": "ISA RO-Crate Profile",
             "description": "An RO-Crate profile for representing ISA (Investigation, Study, and Assay) in Research Object Crates (RO-Crates).",
+            "datePublished": "2025-06-11",
+            "conformsTo": "https://github.com/Language-Research-Technology/ro-crate-schema-tools/blob/main/profiles/sossplus/sossplus-profile.md",
             "author": [
                 {
                     "@id": "https://orcid.org/0000-0002-5526-71389"
@@ -332,6 +334,9 @@
                 },
                 {
                     "@id": "#hasExample"
+                },
+                {
+                    "@id": "#hasSpecializedSchema"
                 }
             ]
         },
@@ -339,12 +344,70 @@
             "@id": "ro-crate-metadata.json",
             "@type": "CreativeWork",
             "about": {
-                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile"
+                "@id": "https://github.com/nfdi4plants/isa-ro-crate-profile/tree/1.0.0-draft.2/profile/"
             },
             "license": {
                 "@id": "https://mit-license.org/"
             },
-            "conformsTo": "https://w3id.org/ro/crate/1.2"
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.2"
+            }
+        },
+        {
+            "@id": "#hasSpecializedSchema",
+            "@type": "ResourceDescriptor",
+            "name": "Specialized Schema Terms",
+            "hasRole": {
+                "@id": "http://www.w3.org/ns/dx/prof/role/schema"
+            },
+            "hasPart": [
+                {
+                    "@id": "#PropertyValue"
+                },
+                {
+                    "@id": "#Property_name_pv"
+                },
+                {
+                    "@id": "#Property_value_pv"
+                }
+            ]
+        },
+        {
+            "@id": "#PropertyValue",
+            "@type": "rdfs:Class",
+            "prov:specializationOf": {
+                "@id": "http://schema.org/PropertyValue"
+            },
+            "description": "A general profile for key-value pairs.",
+            "name": "PropertyValue"
+        },
+        {
+            "@id": "#Property_name_pv",
+            "@type": "rdf:Property",
+            "prov:specializationOf": {
+                "@id": "http://schema.org/name"
+            },
+            "description": "The PropertyValue must have a name",
+            "name": "name",
+            "rdfs:label": "name",
+            "domainIncludes": {
+                "@id": "#PropertyValue"
+            },
+            "sh:minCount": 1
+        },
+        {
+            "@id": "#Property_value_pv",
+            "@type": "rdf:Property",
+            "prov:specializationOf": {
+                "@id": "http://schema.org/value"
+            },
+            "description": "The PropertyValue SHOULD have a value",
+            "name": "value",
+            "rdfs:label": "value",
+            "domainIncludes": {
+                "@id": "#PropertyValue"
+            },
+            "sh:minCount": 1
         }
     ]
 }
