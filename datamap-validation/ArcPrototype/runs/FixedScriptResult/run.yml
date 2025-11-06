@@ -1,0 +1,4 @@
+firstArg:
+  class: File
+  path: ../../assays/measurement1/dataset/proteomics_result.csv
+secondArg: ./result.csv
