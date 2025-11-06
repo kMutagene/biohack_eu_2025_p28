@@ -1,0 +1,27 @@
+{
+  "name": "arc_validator",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Validation tools for ARC and ISA RO-Crates",
+  "homepage": "https://github.com/kMutagene/biohack_eu_2025_p28#readme",
+  "bugs": {
+    "url": "https://github.com/kMutagene/biohack_eu_2025_p28/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kMutagene/biohack_eu_2025_p28.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "ro-crate": "^3.6.1",
+    "url": "^0.11.4"
+  }
+}
