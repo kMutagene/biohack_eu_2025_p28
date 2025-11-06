@@ -28,7 +28,15 @@ error count:  0
 success count:  1
 ```
 
-## 2. Can't get checks working for ro-crate-metadata.json or root data entity
+## ItemListElement or rangeIncludes with an ItemList?
+
+two patterns: directly including `ItemListElement` on a Property definition, or using `rangeIncludes` referencing an `ItemList`.
+
+Which is better for a property where the options are literal strings? e.g. "Investigation", "Study", and "Assay"
+
+And how should this be defined? (didn't find an example with a quick search)
+
+## Can't get checks working for ro-crate-metadata.json or root data entity
 
 Our experiments with this have been deleted, but this also seems to be a problem when testing the Workflow RO-Crate profile on the workflow example. All the checks fail on Eli's machine...
 

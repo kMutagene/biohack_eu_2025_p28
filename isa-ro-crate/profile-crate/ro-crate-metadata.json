@@ -369,6 +369,9 @@
                 },
                 {
                     "@id": "#Property_value_pv"
+                },
+                {
+                    "@id": "#Property_additionalType_pv"
                 }
             ]
         },
@@ -408,6 +411,26 @@
                 "@id": "#PropertyValue"
             },
             "sh:minCount": 1
-        }
+        },
+        {
+            "@id": "#Property_additionalType_pv",
+            "@type": "rdf:Property",
+            "prov:specializationOf": {
+                "@id": "http://schema.org/additionalType"
+            },
+            "description": "A PropertyValue MUST have additionalType with the type of the property",
+            "name": "additionalType",
+            "rdfs:label": "additionalType",
+            "domainIncludes": {
+                "@id": "#PropertyValue"
+            },
+            "itemListElement": [
+                "ParameterValue",
+                "CharacteristicValue",
+                "FactorValue",
+                "Component"
+            ],
+            "sh:minCount": 1
+        },
     ]
 }
