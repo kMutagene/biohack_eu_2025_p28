@@ -1,0 +1,310 @@
+[
+    {
+        "id": "d57e53ca965be6aef472725d1d240e25100c2c00",
+        "name": ".arc",
+        "type": "tree",
+        "path": ".arc",
+        "mode": "040000"
+    },
+    {
+        "id": "16bea932f800b82d7ca839acdc91e10f2776c5c3",
+        "name": "assays",
+        "type": "tree",
+        "path": "assays",
+        "mode": "040000"
+    },
+    {
+        "id": "211c9cfe160247785dc565da9edf9eb9c2ec9aff",
+        "name": "Talinum_RNASeq_minimal",
+        "type": "tree",
+        "path": "assays/Talinum_RNASeq_minimal",
+        "mode": "040000"
+    },
+    {
+        "id": "88ab2cc2946ec2d13167439ea866d3f2391c5fae",
+        "name": "dataset",
+        "type": "tree",
+        "path": "assays/Talinum_RNASeq_minimal/dataset",
+        "mode": "040000"
+    },
+    {
+        "id": "651c2bf37019c2626b3a7dba0288404ea74912bd",
+        "name": "protocols",
+        "type": "tree",
+        "path": "assays/Talinum_RNASeq_minimal/protocols",
+        "mode": "040000"
+    },
+    {
+        "id": "c6554c5e8fa3a501629dcbcbb8949bcdc3e85ebe",
+        "name": "externals",
+        "type": "tree",
+        "path": "externals",
+        "mode": "040000"
+    },
+    {
+        "id": "93dc5df35314cdd2cb1f9367da1bdc7aefaf2672",
+        "name": "runs",
+        "type": "tree",
+        "path": "runs",
+        "mode": "040000"
+    },
+    {
+        "id": "61c13e4d6e627b04778fbc9fdefde73d56857d17",
+        "name": "run1",
+        "type": "tree",
+        "path": "runs/run1",
+        "mode": "040000"
+    },
+    {
+        "id": "7b0a1915910b536ee5931cb3286453f4c8f9e08e",
+        "name": "workflows",
+        "type": "tree",
+        "path": "workflows",
+        "mode": "040000"
+    },
+    {
+        "id": "41620a61c226723572bb7e6a0ab6110ee8f56405",
+        "name": "05_plotshinyPrep",
+        "type": "tree",
+        "path": "workflows/05_plotshinyPrep",
+        "mode": "040000"
+    },
+    {
+        "id": "b70fe311d57a07efbf35f6f9abf160dc220f1672",
+        "name": "ArcCommander.log",
+        "type": "blob",
+        "path": ".arc/ArcCommander.log",
+        "mode": "100644"
+    },
+    {
+        "id": "cb4dfd0e5ca79d5acb4b8cd5a91b74cebe48ad41",
+        "name": ".gitattributes",
+        "type": "blob",
+        "path": ".gitattributes",
+        "mode": "100644"
+    },
+    {
+        "id": "6fc57d72c71cfb1f1edd147d305c8d8ac5c6be88",
+        "name": "README.md",
+        "type": "blob",
+        "path": "README.md",
+        "mode": "100644"
+    },
+    {
+        "id": "3dc159704211be4bd2b6d62bfc315a48f567e134",
+        "name": "TalinumFacultativeCAM.study.xlsx",
+        "type": "blob",
+        "path": "TalinumFacultativeCAM.study.xlsx",
+        "mode": "100644"
+    },
+    {
+        "id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "name": "README.md",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/README.md",
+        "mode": "100644"
+    },
+    {
+        "id": "f741badf5f61e7497ede70baa210a26f0359422c",
+        "name": "DB_097_CAMMD_CAGATC_L001_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_097_CAMMD_CAGATC_L001_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "aca6b925031ec2410da74d7840ef280d7b2c7f06",
+        "name": "DB_099_CAMMD_CTTGTA_L001_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_099_CAMMD_CTTGTA_L001_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "11c69db04d237cd06134fb6afcaedef400680c9f",
+        "name": "DB_103_CAMMD_AGTCAA_L001_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_103_CAMMD_AGTCAA_L001_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "7505cdb1fcd631eee30c5b37ab157f0efe1dfacd",
+        "name": "DB_161_reC3MD_GTCCGC_L001_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_161_reC3MD_GTCCGC_L001_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "baa83fb94ed5a8a8b19bfd47f4070bdca4d6ccc7",
+        "name": "DB_163_reC3MD_GTGAAA_L001_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_163_reC3MD_GTGAAA_L001_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "e09a781dc1ce35496e27d02ce233f9106cb54ee9",
+        "name": "DB_165_re-C3MD_GTGAAA_L002_R1_001.fastq.gz",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/dataset/DB_165_re-C3MD_GTGAAA_L002_R1_001.fastq.gz",
+        "mode": "100644"
+    },
+    {
+        "id": "5a562cf0276127866b7efd22c0552dc69557346d",
+        "name": "isa.assay.xlsx",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/isa.assay.xlsx",
+        "mode": "100644"
+    },
+    {
+        "id": "4622948c73164021e191ec5a2dcdb0a8e7e5b697",
+        "name": "01_plant_material.md",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/protocols/01_plant_material.md",
+        "mode": "100644"
+    },
+    {
+        "id": "2ffb4c49322f11a3737bd05f957f9a12ae0b4332",
+        "name": "02_RNAex_libraries.md",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/protocols/02_RNAex_libraries.md",
+        "mode": "100644"
+    },
+    {
+        "id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "name": "README.md",
+        "type": "blob",
+        "path": "assays/Talinum_RNASeq_minimal/protocols/README.md",
+        "mode": "100644"
+    },
+    {
+        "id": "53e8012327dc2a546e716068fda7d7d5da769e8b",
+        "name": "README.md",
+        "type": "blob",
+        "path": "externals/README.md",
+        "mode": "100644"
+    },
+    {
+        "id": "a01576aae80c2432f0d83e28511c2d06397d7c2e",
+        "name": "Talinum.gm.CDS.nt.fa",
+        "type": "blob",
+        "path": "externals/Talinum.gm.CDS.nt.fa",
+        "mode": "100644"
+    },
+    {
+        "id": "3aee1992809b55a7465da9451d3c48c88512e765",
+        "name": "isa.investigation.xlsx",
+        "type": "blob",
+        "path": "isa.investigation.xlsx",
+        "mode": "100644"
+    },
+    {
+        "id": "f26971208cd28e359aa31068043174b317097675",
+        "name": "01_kallisto_index",
+        "type": "blob",
+        "path": "runs/run1/01_kallisto_index",
+        "mode": "100644"
+    },
+    {
+        "id": "23dcfff6484accacbc2130d70378492f8a732456",
+        "name": "02_assay_data.csv",
+        "type": "blob",
+        "path": "runs/run1/02_assay_data.csv",
+        "mode": "100644"
+    },
+    {
+        "id": "ca9872b754dfbb8c3a74bbf09a6938e70cd925d4",
+        "name": "03_kallisto_df.csv",
+        "type": "blob",
+        "path": "runs/run1/03_kallisto_df.csv",
+        "mode": "100644"
+    },
+    {
+        "id": "21b8d2b5c3158bf2102012cb0216197f58087c98",
+        "name": "03_kallisto_mappingStats.csv",
+        "type": "blob",
+        "path": "runs/run1/03_kallisto_mappingStats.csv",
+        "mode": "100644"
+    },
+    {
+        "id": "d91c6671d6075cc92fc4081101554cbe3a7be19b",
+        "name": "03_kallisto_sleuthObject.RData",
+        "type": "blob",
+        "path": "runs/run1/03_kallisto_sleuthObject.RData",
+        "mode": "100644"
+    },
+    {
+        "id": "b36c4780c19ab8ac4aedb712754668b9c6451371",
+        "name": "03_kallisto_tpmMatrix.csv",
+        "type": "blob",
+        "path": "runs/run1/03_kallisto_tpmMatrix.csv",
+        "mode": "100644"
+    },
+    {
+        "id": "56afd6f749d0e0f81c2eeedaf0667728152f8eec",
+        "name": "04_sleuth_dge.csv",
+        "type": "blob",
+        "path": "runs/run1/04_sleuth_dge.csv",
+        "mode": "100644"
+    },
+    {
+        "id": "ef5daf70a96e693ec1b30a45ccf74ce05ca9549d",
+        "name": "isa.run.xlsx",
+        "type": "blob",
+        "path": "runs/run1/isa.run.xlsx",
+        "mode": "100644"
+    },
+    {
+        "id": "5cb91b5a2c750299f29c5fac895a7b26b0d6d858",
+        "name": "01_KallistoQuant.sh",
+        "type": "blob",
+        "path": "workflows/01_KallistoQuant.sh",
+        "mode": "100644"
+    },
+    {
+        "id": "796a61218717e37e36b59cb01da0e0f5c738e875",
+        "name": "03_KallistoCollect.R",
+        "type": "blob",
+        "path": "workflows/03_KallistoCollect.R",
+        "mode": "100644"
+    },
+    {
+        "id": "ab2f5791cc20d8343cee2f934443d87b5e317c8e",
+        "name": "04_Sleuth.R",
+        "type": "blob",
+        "path": "workflows/04_Sleuth.R",
+        "mode": "100644"
+    },
+    {
+        "id": "e0b2fe554819c1c0f21057a7cf283c021319de3f",
+        "name": "05_plot_shinyPrep.R",
+        "type": "blob",
+        "path": "workflows/05_plot_shinyPrep.R",
+        "mode": "100644"
+    },
+    {
+        "id": "664bf3919e0b69d7d8c62100728e8f97aa09048d",
+        "name": "05_plot_shinyPrep.R",
+        "type": "blob",
+        "path": "workflows/05_plotshinyPrep/05_plot_shinyPrep.R",
+        "mode": "100644"
+    },
+    {
+        "id": "04ffba69da5da065507a0df34d17bc7def4834f3",
+        "name": "plot_shinyPrep.cwl",
+        "type": "blob",
+        "path": "workflows/05_plotshinyPrep/plot_shinyPrep.cwl",
+        "mode": "100644"
+    },
+    {
+        "id": "426ca847efcbc3e014897beafd870ce2409ebcd7",
+        "name": "plot_shinyPrep.yml",
+        "type": "blob",
+        "path": "workflows/05_plotshinyPrep/plot_shinyPrep.yml",
+        "mode": "100644"
+    },
+    {
+        "id": "d48a3b6337495a47fc9b91a8eb759aa5f4fc060e",
+        "name": "06_plot_shinyApp.Rmd",
+        "type": "blob",
+        "path": "workflows/06_plot_shinyApp.Rmd",
+        "mode": "100644"
+    }
+]
