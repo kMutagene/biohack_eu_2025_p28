@@ -1,0 +1,4 @@
+[submodule "ro-crate-schema-tools"]
+	path = ro-crate-schema-tools
+	url = https://github.com/Language-Research-Technology/ro-crate-schema-tools
+	branch = sossplus
