@@ -76,3 +76,7 @@ cd ro-crate-schema-tools/
 npm install
 node testmycrate.js  # the file we just created
 ```
+
+## Development notes
+
+See [dev-notes.md](dev-notes.md)
